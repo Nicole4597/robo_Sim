@@ -1,0 +1,4 @@
+string oldEmoState
+string scenicAction
+---
+string newEmoState

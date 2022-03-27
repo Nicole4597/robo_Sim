@@ -1,0 +1,56 @@
+{
+	"anger" : [
+		["sharing_happiness", "joy", 0.1],
+		["sharing_happiness", "surprise", 0.75],
+		["sharing_happiness", "anger", 0.15],
+		["sharing_sadness", "anger", 0.75],
+		["sharing_fear", "anger", 0.75],
+		["sharing_sadness", "surprise", 0.25],
+		["sharing_fear", "surprise", 0.25],
+		["surprise", "joy", 0.25],
+		["surprise", "anger", 0.75]
+	],
+	
+	"fear" : [
+		["surprise", "surprise", 0.25],
+		["surprise", "fear", 0.75],
+		["sharing_sadness", "sadness", 0.5],
+		["sharing_sadness", "fear", 0.5],
+		["sharing_happiness", "joy", 0.25],
+		["sharing_happiness", "fear", 0.75]
+	],
+	
+	"joy" : [
+		["attack", "anger", 0.5],
+		["attack", "surprise", 0.5],
+		["intimidate", "anger", 0.5],
+		["intimidate", "surprise", 0.5],
+		["sharing_fear", "surprise", 0.5],
+		["sharing_fear", "joy", 0.5],
+		["sharing_sadness", "surprise", 0.5],
+		["sharing_sadness", "joy", 0.25],
+		["sharing_sadness", "sadness", 0.25]
+	],
+	
+	"sadness" : [
+		["sharing_happiness", "joy", 0.25],
+		["sharing_happiness", "surprise", 0.5],
+		["sharing_happiness", "sadness", 0.25],
+		["attack", "fear", 0.8],
+		["attack", "surprise", 0.2],
+		["intimidate", "fear", 0.8],
+		["intimidate", "surprise", 0.2]
+	],
+	
+	"surprise" : [
+		["attack", "fear", 0.75],
+		["attack", "anger", 0.25],
+		["intimidate", "fear", 0.75],
+		["intimidate", "anger", 0.25],
+		["sharing_sadness", "sadness", 0.5],
+		["sharing_sadness", "surprise", 0.5],
+		["sharing_happiness", "joy", 1],
+		["surprise", "joy", 0.25],
+		["surprise", "surprise", 0.75]
+	]
+}

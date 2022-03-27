@@ -1,0 +1,21 @@
+<launch>
+
+	<!--Launch triskarone basic nodes-->
+	<!-- <include file="$(find triskar)/launch/triskarone_slam.launch"/> -->
+
+	<!--Launch move_base basic nodes-->
+	<!-- <include file="$(find triskar_navigation)/launch/move_base.launch"/> -->
+
+    <!-- Launch Controller Nodes -->
+	<node pkg="main_controller" type="bm_server.py" name="bm_server" output="screen"> </node>
+	<node pkg="main_controller" type="ai_server.py" name="ai_server" output="screen"> </node>
+	<node pkg="main_controller" type="reaction_server.py" name="reaction_server" output="screen"> </node>
+	<node pkg="main_controller" type="main.py" name="main_controller" output="screen"> </node>
+
+	<!-- Launch dynamic reconfigure -->
+	<!-- <node pkg="rqt_reconfigure" name="rqt_reconfigure"> </node> -->
+
+	<!-- Load Paramters-->
+	<rosparam file="$(find main_controller)/params/main_controller_params.yaml" command="load" />
+
+</launch>

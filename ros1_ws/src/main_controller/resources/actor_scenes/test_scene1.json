@@ -1,0 +1,32 @@
+[
+    {
+        "actorPosX": 0.5,
+        "actorPosY": 0.0,
+        "scenicAction": "grudge"
+    },
+    {
+        "actorPosX": -1.0,
+        "actorPosY": -1.0,
+        "scenicAction": "running_away"
+    },
+    {
+        "actorPosX": 1.0,
+        "actorPosY": 0.0,
+        "scenicAction": "scolding"
+    },
+    {
+        "actorPosX": 0.5,
+        "actorPosY": 0.0,
+        "scenicAction": "attack"
+    },
+    {
+        "actorPosX": 0.5,
+        "actorPosY": -1.0,
+        "scenicAction": "surprise"
+    },
+    {
+        "actorPosX": 0.0,
+        "actorPosY": 1.0,
+        "scenicAction": "sharing_happiness"
+    }
+]

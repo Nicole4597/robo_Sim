@@ -1,0 +1,178 @@
+{
+  "section1": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+    "move_eyes": [
+        3,3,
+        0,3,
+        4,3,
+        0,5,
+        3,2,
+        0,6
+      ],
+      "move_body":[0,3,2,3,0,3,1,3,0,3,3,4,0,4,4,3,0,4],
+      "speak": "sampson0.wav"
+    }
+  },
+  "section2": {
+    "trigger": "after_speech",
+    "trigger_data": 3,
+    "actions": {
+      "move_eyes": [
+        3,3,
+        0,3,
+        4,3,
+        0,5,
+        3,2,
+        0,6
+      ],
+      "move_body":[0,3,2,3,0,3,1,3,0,3,3,4,0,4,4,3,0,4]
+    }
+  },
+  "section3": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "speak": "sampson1.wav"
+    }
+  },
+  "section4": {
+    "trigger": "after_speech",
+    "trigger_data": 3.5,
+    "actions": {
+      "move_eyes": [
+        0,
+        1
+      ]
+    }
+  },
+  "section5": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "move_body": [
+        2,
+        5
+      ],
+      "speak": "sampson2.wav"
+    }
+  },
+  "section6": {
+    "trigger": "after_speech",
+    "trigger_data": 3.5,
+    "actions": {
+      "move_eyes": [
+        1,
+        3
+      ]
+    }
+  },
+  "section7": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "speak": "sampson3.wav"
+    }
+  },
+  "section8": {
+    "trigger": "after_speech",
+    "trigger_data": 10,
+    "actions": {
+      "move_eyes": [
+        1,
+        3
+      ]
+    }
+  },
+  "section9": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "move_body": [
+        2,
+        5
+      ],
+      "speak": "sampson4.wav"
+    }
+  },
+  "section10": {
+    "trigger": "after_speech",
+    "trigger_data": 6.5,
+    "actions": {
+      "move_eyes": [
+        1,
+        3
+      ]
+    }
+  },
+  "section11": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "speak": "sampson5.wav"
+    }
+  },
+  "section12": {
+    "trigger": "after_speech",
+    "trigger_data": 3.5,
+    "actions": {
+      "move_eyes": [
+        0,
+        3
+      ]
+    }
+  },
+  "section13": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "speak": "sampson6.wav"
+    }
+  },
+  "section14": {
+    "trigger": "after_speech",
+    "trigger_data": 1,
+    "actions": {
+      "move_eyes": [
+        0,
+        3
+      ]
+    }
+  },
+  "section15": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "move_body": [
+        4,
+        5
+      ],
+      "speak": "sampson7.wav"
+    }
+  },
+  "section16": {
+    "trigger": "after_speech",
+    "trigger_data": 4,
+    "actions": {
+      "move_eyes": [
+        1,
+        3
+      ]
+    }
+  },
+  "section17": {
+    "trigger": "after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "speak": "sampson8.wav"
+    }
+  },
+  "section18": {
+    "trigger":"after_precedent",
+    "trigger_data": -1,
+    "actions": {
+      "end": -1
+    }
+  }
+}

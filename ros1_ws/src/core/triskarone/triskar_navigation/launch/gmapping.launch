@@ -1,0 +1,13 @@
+<launch>
+	<!-- Run map server-->
+	<!--<include file="$(find triskar_navigation)/launch/map_server.launch" />-->
+	
+	<!-- Run amcl-->
+	<include file="$(find triskar_navigation)/launch/amcl.launch" /> 
+
+	<!-- Run gmapping server -->
+	<node name="slam_gmapping" pkg="gmapping" type="slam_gmapping">
+	<rosparam file="$(find triskar_navigation)/params/gmapping/gmapping_params.yaml" command="load" />
+	</node>
+	
+</launch> 

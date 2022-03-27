@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import rospy
+from std_msgs.msg import String
+
+def callback_receive_radio_data(msg):
+	rospy.loginfo("Message received : ")
+	rospy.loginfo(msg)
+
+
+if __name__ == '__main__':
+	rospy.init_node('actor_info_receiver')
+	
+	sub = rospy.Subscriber("/actor_info", String, callback_receive_radio_data)
+
+	rospy.spin()

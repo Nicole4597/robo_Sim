@@ -1,0 +1,33 @@
+{
+    "section1": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_base": [
+                2.2,
+                -2.2,
+                0.33,
+                0.66
+            ]
+        }
+    },
+    "section2": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_base": [
+                0.5,
+                1.5,
+                0.12,
+                0.99
+            ]
+        }
+    },
+   "section3": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "end": -1
+        }
+    }
+}

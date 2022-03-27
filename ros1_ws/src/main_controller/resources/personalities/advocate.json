@@ -1,0 +1,66 @@
+{
+	"anger" : [
+		["sharing_happiness", "joy", 0.1],
+		["sharing_happiness", "surprise", 0.9],
+		["sharing_sadness", "sadness", 0.5],
+		["sharing_fear", "sadness", 0.5],
+		["sharing_sadness", "anger", 0.5],
+		["sharing_fear", "anger", 0.5],
+		["surprise", "surprise", 0.25],
+		["surprise", "anger", 0.75],
+		["attack", "fear", 0.2],
+		["attack", "anger", 0.8],
+		["intimidate", "fear", 0.2],
+		["intimidate", "anger", 0.8]
+	],
+	
+	"fear" : [
+		["surprise", "surprise", 1],
+		["sharing_sadness", "sadness", 1],
+		["disappointment", "sadness", 0.5],
+		["disappointment", "fear", 0.5],
+		["sharing_happiness", "joy", 1],
+		["happy_person", "joy", 0.5],
+		["happy_person", "fear", 0.5]
+	],
+	
+	"joy" : [
+		["attack", "anger", 0.2],
+		["attack", "fear", 0.8],
+		["intimidate", "anger", 0.2],
+		["intimidate", "fear", 0.8],
+		["sharing_fear", "fear", 1],
+		["surprise", "surprise", 1],
+		["sharing_sadness", "sadness", 1],
+		["disappointment", "sadness", 0.5],
+		["disappointment", "joy", 0.5],
+		["running_away", "sadness", 0.5],
+		["running_away", "joy", 0.5]
+	],
+	
+	"sadness" : [
+		["sharing_happiness", "joy", 0.5],
+		["sharing_happiness", "sadness", 0.5],
+		["surprise", "joy", 0.5],
+		["surprise", "sadness", 0.5],
+		["attack", "fear", 0.8],
+		["intimidate", "fear", 0.8],
+		["attack", "anger", 0.2],
+		["intimidate", "anger", 0.2],
+		["sharing_fear", "fear", 0.5],
+		["sharing_fear", "sadness", 0.5]
+	],
+	
+	"surprise" : [
+		["attack", "fear", 0.8],
+		["attack", "anger", 0.2],
+		["intimidate", "fear", 0.8],
+		["intimidate", "anger", 0.2],
+		["sharing_fear", "fear", 0.8],
+		["sharing_fear", "surprise", 0.2],
+		["happy_person", "joy", 0.8],
+		["happy_person", "surprise", 0.2],
+		["sharing_happiness", "joy", 1],
+		["sharing_sadness", "sadness", 1]
+	]
+}

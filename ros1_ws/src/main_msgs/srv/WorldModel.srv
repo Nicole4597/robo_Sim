@@ -1,0 +1,8 @@
+---
+float64 actorPosX
+float64 actorPosY
+float64 actorOrientation
+string scenicAction
+string robotEmoState
+string robotReaction
+bool endScene

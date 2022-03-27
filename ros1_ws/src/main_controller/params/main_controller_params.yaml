@@ -1,0 +1,13 @@
+script_path: "resources/scripts/start_scene.json"
+move_base_recovery: 0
+section_to_start: 1
+personality: commander
+emotional_state: surprise
+actor_input: "world"      # "world" | "test_scene1.json" | ...
+is_debug: False           # if True skip action checks (use it when you are not connected to the robot)
+map_size: 2.5               # robot can move from (-1.5,-1.5) to (1.5,1.5)
+max_scene_duration: 15     # maximum number of times the robot will react to the actor actions
+# TODO robot in the middle of the stage, facing us
+initial_x: 0
+initial_y: 0
+initial_orient: 0

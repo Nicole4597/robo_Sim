@@ -1,0 +1,79 @@
+{
+    "section1": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                1,
+                2
+            ]
+        }
+    },
+    "section2": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                2,
+                2
+            ]
+        }
+    },
+    "section3": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                3,
+                2
+            ]
+        }
+    },
+    "section4": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                4,
+                2
+            ]
+        }
+    },
+    "section5": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                5,
+                2
+            ]
+        }
+    },
+    "section6": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                6,
+                2
+            ]
+        }
+    },
+    "section7": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "move_eyes": [
+                0,
+                2
+            ]
+        }
+    },
+    "section8": {
+        "trigger": "after_precedent",
+        "trigger_data": -1,
+        "actions": {
+            "end": -1
+        }
+    }
+}

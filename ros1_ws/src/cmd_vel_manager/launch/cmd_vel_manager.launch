@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="cmd_vel_manager" type="main.py" name="cmd_vel_manager" output="screen">
+	    <!-- <remap from="cmd_vel" to="cmd_vel_manager/cmd_vel"/>-->
+	</node>
+
+</launch>

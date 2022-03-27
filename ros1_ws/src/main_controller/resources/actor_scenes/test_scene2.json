@@ -1,0 +1,26 @@
+[
+    {
+        "actorPosX": 0.5,
+        "actorPosY": 0.5,
+        "actorOrientation": 0,
+        "scenicAction": "sharing_happiness"
+    },
+    {
+        "actorPosX": 2.0,
+        "actorPosY": 0.0,
+        "actorOrientation": 0,
+        "scenicAction": "surprise"
+    },
+    {
+        "actorPosX": -1.5,
+        "actorPosY": -1.5,
+        "actorOrientation": 0,
+        "scenicAction": "disbelief"
+    },
+    {
+        "actorPosX": 0.5,
+        "actorPosY": 0.5,
+        "actorOrientation": 0,
+        "scenicAction": "grudge"
+    }
+]

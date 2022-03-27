@@ -1,0 +1,16 @@
+SCENIC_ACTION,joy,sadness,fear,anger,surprise
+attack,happy,disappointment,running_away,attack,disbelief
+scolding,sharing_happiness,sharing_sadness,running_away,intimidate,astonishment
+intimidate,satisfaction,sharing_sadness,running_away,attack,disbelief
+grudge,sharing_happiness,sharing_sadness,sharing_fear,grudge,disbelief
+sharing_happiness,sharing_happiness,disappointment,running_away,grudge,surprise
+happy_person,sharing_happiness,sharing_sadness,sharing_fear,scolding,surprise
+satisfaction,satisfaction,disappointment,sharing_fear,grudge,astonishment
+sharing_fear,sharing_happiness,sharing_sadness,sharing_fear,scolding,surprise
+running_away,sharing_happiness,disappointment,sharing_fear,attack,astonishment
+sharing_sadness,happy,sharing_sadness,sharing_fear,scolding,surprise
+disappointment,happy,disappointment,sharing_fear,scolding,astonishment
+surprise,sharing_happiness,sharing_sadness,running_away,attack,astonishment
+disbelief,happy,disappointment,running_away,scolding,astonishment
+astonishment,sharing_happiness,sharing_sadness,running_away,intimidate,astonishment
+none,none,none,none,none,none

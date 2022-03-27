@@ -1,0 +1,24 @@
+{
+"section1": { 
+    "trigger":"after_precedent",
+    "trigger_data": -1,
+    "actions": {
+        "speak":"urlo5.wav"
+    }
+},
+"section2": { 
+    "trigger":"after_precedent",
+    "trigger_data": -1,
+    "actions": {
+        "get_command": -1
+    }
+},
+"section3": { 
+    "trigger":"after_precedent",
+    "trigger_data": -1,
+    "actions": {
+        "end": -1
+    }
+}
+}
+
